@@ -15,17 +15,7 @@ public class Solution {
         int contador=0;
         if(n==0)
             return 0;
-        do{
-            divisor= val%10;
-            val/=10;
-            if(divisor!=0){
-                if(n%divisor==0){
-                    contador++;
-                }
-            }
-            
-        }while(val>0);
-
+     
 
         return contador;
     }
