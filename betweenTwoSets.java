@@ -6,9 +6,7 @@ import java.util.regex.*;
 
 public class Solution {
 
-    /*
-     * Complete the getTotalX function below.
-     */
+  
     static String getTotalX(int[] a, int[] b) {
         /*
          * Write your code here.
